@@ -29,8 +29,8 @@ function App() {
               </React.Fragment>
             )}
           />
-          <route exact path='/posts/:postId' component={SinglePostPage}/>
-          <route exact path='/editPost/:postId' component={EditPostForm}/>
+          <Route exact path='/posts/:postId' component={SinglePostPage}/>
+          <Route exact path='/editPost/:postId' component={EditPostForm}/>
           <Redirect to="/" />
         </Switch>
       </div>
